@@ -1,0 +1,7 @@
+Uwaga do zadania:
+W pliku miasta.csv sprawdzic, ze nie ma zadnych pustych linii na koncu pliku a nastepnie:
+
+import csv
+with open('C:/Users/Tomek/Desktop/wazne/wykladIO/cwiczenia/lab1i2PJATK/miasta.csv','a', newline='') as newFile:
+    newFileWriter=csv.writer(newFile)
+    newFileWriter.writerow([2010,460,555,405])
